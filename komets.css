@@ -1,3 +1,17 @@
-body {
-  
+}
+
+.center {
+  text-align: center;
+}
+.nav-pills .nav-link {
+  color: white;
+  background-color: transparent;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
 }
