@@ -25,7 +25,11 @@ a {
 a:hover {
   color: red;
 }
-
+button {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+}
 .heading {
   font-size: 60px;
   width: 100%;
@@ -134,7 +138,7 @@ nav ul {
 nav ul li {
   list-style: none;
   font-size: 30px;
-  color: red;
+  color: black;
   line-height: 2.2;
   text-transform: uppercase;
   letter-spacing: 1.7px;
