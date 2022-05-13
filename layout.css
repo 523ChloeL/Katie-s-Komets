@@ -15,7 +15,7 @@ a {
 }
 .container {
   font-size: 60px;
-  width: 100%;
+  widows: 100%;
   text-align: center;
   background-color: black;
   color: red;
@@ -24,11 +24,15 @@ a {
 }
 a:hover {
   color: red;
+  background-color: black;
 }
 button {
   background-color: red;
   color: black;
   font-size: 30px;
+}
+button:hover {
+  background-color: gray;
 }
 .heading {
   font-size: 60px;
