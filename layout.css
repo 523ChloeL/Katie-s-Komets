@@ -30,6 +30,7 @@ button {
   background-color: red;
   color: black;
   font-size: 30px;
+  border-radius: 2px;
 }
 button:hover {
   background-color: gray;
@@ -83,7 +84,7 @@ header {
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 0, 0, 0.6);
 }
 
 .hamburger-icon:hover {
@@ -151,6 +152,10 @@ nav ul li {
 nav.show {
   width: 33%;
   opacity: 1;
+}
+.banner {
+  width: 1370px;
+  height: 150px;
 }
 
 .dark-blue {
