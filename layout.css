@@ -154,8 +154,8 @@ nav.show {
   opacity: 1;
 }
 .banner {
-  width: 1370px;
-  height: 150px;
+  width: 150%;
+  height: 250px;
 }
 
 .dark-blue {
