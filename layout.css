@@ -8,6 +8,13 @@ body {
   background-size: cover;
   font-family: 'Big Shoulders Stencil Text', cursive;
 }
+footer p, li, td{
+  font-size: 24px;
+}
+.copyright {
+    font-size: 24px;
+    text-align: center;
+}
 
 a {
   color: red;
@@ -156,6 +163,10 @@ nav.show {
 .banner {
   width: 150%;
   height: 250px;
+  z-index: -100;
+}
+.nav {
+  z-index: 10;
 }
 
 .dark-blue {
@@ -192,7 +203,7 @@ nav.show {
 }
 
 .content {
-  position: absolute;
+
   top: 50%;
   left: 50%;
   width: 100%;
@@ -204,10 +215,4 @@ nav.show {
   font-size: 70px;
   animation: shotup 600ms ease-in-out;
   animation-delay: 300ms;
-}
-
-div {
-  z-index: -1;
-  position: absolute;
-  text-align: center;
 }

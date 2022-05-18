@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
@@ -13,34 +14,140 @@
 </head>
 
 <body>
+  <div class="container nav">
+    <!-- nav menu is from https://codepen.io/pranjal9599/pen/yJRNoL -->
+        <div class="hamburger-icon" id="icon">
+          <div class="icon-1" id="a"></div>
+          <div class="icon-2" id="b"></div>
+          <div class="icon-3" id="c"></div>
+          <div class="clear"></div>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="partners.html">Partners and Sponsors</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <button>Donate!</button>
+          </ul>
+        </nav>
+  </div>
 
-
-<!-- nav menu is from https://codepen.io/pranjal9599/pen/yJRNoL -->
-    <div class="hamburger-icon" id="icon">
-      <div class="icon-1" id="a"></div>
-      <div class="icon-2" id="b"></div>
-      <div class="icon-3" id="c"></div>
-      <div class="clear"></div>
-    </div>
-    <nav id="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="partners.html">Partners and Sponsors</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <button>Donate!</button>
-      </ul>
-    </nav>
-  <div class="row">
+  <div class="row column">
     <div class ="banner"><img src="img/webanner.png"></div>
     <div>
       (Information Goes Here)
     </div>
   </div>
+<div class="row">
+  <!-- footer from: https://mdbootstrap.com/snippets/standard/mdbootstrap/2885111?view=side -->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container">
 
+  <footer class="text-white text-center text-lg-start bg-dark">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+          <h5 class="text-uppercase mb-4">About company</h5>
+
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            voluptatum deleniti atque corrupti.
+          </p>
+
+          <p>
+            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+            molestias.
+          </p>
+
+          <div class="mt-4">
+            <!-- Facebook -->
+            <a href="#" class="fa fa-facebook btn btn-floating btn-light btn-lg"></a>
+
+            <!-- Dribbble -->
+            <a href="#" class="fa fa-dribbble btn btn-floating btn-light btn-lg"></a>
+
+            <!-- Twitter -->
+            <a href="#" class="fa fa-twitter btn btn-floating btn-light btn-lg"></a>
+            <!-- Google + -->
+            <a href="#" class="fa fa-google btn btn-floating btn-light btn-lg"></a>
+            <!-- Linkedin -->
+            <a href="#" class="fa fa-linkedin btn btn-floating btn-light btn-lg"></a>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+          <div class="form-outline form-white mb-4">
+            <input type="email" id="emailField" class="form-control" />
+          </div>
+          <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+        </div>
+
+          <ul class="fa-ul">
+            <li class="mb-3">
+              <p class="fa-li"><i class="fa fa-home"></i></p>
+              <<p></p> class="ms-2">Warsaw, 00-967, Poland</p>
+            </li>
+            <li class="mb-3">
+              <p class="fa-li"><i class="fa fa-envelope"></i></p>
+              <p class="ms-2">contact@example.com</p>
+            </li>
+            <li class="mb-3">
+              <p class="fa-li"><i class="fa fa-phone"></i></p>
+              <p class="ms-2">+ 48 234 567 88</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+          <table class="table text-center text-white">
+            <tbody class="fw-normal">
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9am - 10pm</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+      <div class="text-center p-3 copyright" style="background-color: rgba(0, 0, 0);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/" target="_blank">MDBootstrap.com</a>
+      </div>
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+
+    <!-- Copyright -->
+  </footer>
+
+</div>
+<!-- End of .container -->
+</div>
   <script src="komets.js"></script>
-
 </body>
 
 </html>
