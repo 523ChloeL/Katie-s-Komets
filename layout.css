@@ -9,7 +9,8 @@ body {
   font-family: 'Big Shoulders Stencil Text', cursive;
 }
 footer p, li, td{
-  font-size: 24px;
+  text-align: center;
+  font-size: 12px;
 }
 .copyright {
     font-size: 24px;
@@ -39,8 +40,13 @@ button {
   font-size: 30px;
   border-radius: 2px;
 }
+.btn-size {
+  height: 65px;
+  width: 65px;
+}
 button:hover {
-  background-color: gray;
+  background-color: white;
+  color: red;
 }
 .heading {
   font-size: 60px;
