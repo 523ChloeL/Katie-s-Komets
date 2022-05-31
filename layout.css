@@ -23,6 +23,7 @@ body {
 
 .navbar {
   width: 100%;
+  background: url(img/webbanner.png);
 }
 
 .nav-container {
