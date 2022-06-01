@@ -23,7 +23,7 @@ body {
 
 .navbar {
   width: 100%;
-  background: url(img/webbanner.png);
+  background-color: black;
 }
 
 .nav-container {
@@ -56,7 +56,6 @@ body {
 .nav-container {
   display: block;
   position: relative;
-  background: url(img/webbanner.png);
   background-repeat:no-repeat;
   width: 100px;
   height: 250px;
@@ -128,7 +127,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 }
-
+/* hamburger menu */
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
@@ -186,54 +185,33 @@ button {
   height: 65px;
   width: 65px;
 }
-button:hover {
+button .subscribe:hover {
   background-color: white;
   color: red;
+}
+button:hover{
+  background-color: red;
 }
 .heading {
   font-size: 60px;
   width: 100%;
   text-align: center;
 }
+div .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .container {
   width: 100%;
 }
 
-div{
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
 .carousel {
   text-align: center;
+  z-index: 100;
 }
-.dark-blue {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 0%;
-  transition: all 500ms cubic-bezier(0.62, 0.04, 0.3, 1.8);
-  transition-delay: 50ms;
-  z-index: 5;
-  opacity: 1;
-}
-
-.content {
-
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.content h1 {
-  font-size: 70px;
-  animation: shotup 600ms ease-in-out;
-  animation-delay: 300ms;
-}
-#myCarousel {
-  height: 500px;
+#myCarousel .carousel-item{
+  height: 400px;
 }
