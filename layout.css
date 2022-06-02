@@ -7,6 +7,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Big Shoulders Stencil Text', cursive;
+  padding: 0px;
+  margin: 0px;
 }
 * {
   margin: 0;
@@ -15,10 +17,9 @@ body {
 }
 
 
-.container {
-  max-width: 1050px;
-  width: 90%;
-  margin: auto;
+.container-fluid {
+  padding: 0px;
+  margin:0px;
 }
 
 .navbar {
@@ -185,9 +186,13 @@ button {
   height: 65px;
   width: 65px;
 }
-button .subscribe:hover {
+button.subscribe:hover {
   background-color: white;
   color: red;
+}
+button.subscribe{
+  background-color: red;
+  color: white;
 }
 button:hover{
   background-color: red;
