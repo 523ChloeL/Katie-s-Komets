@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #EE9C5B;
+  text-align: center;
+  cursor: pointer;
+}
+a {
+  color: #fff;
+  font-style: normal;
+}
+.whiteDesc {
+  color: black;
+  background-color: #EEEBC9;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.desc {
+  color:white;
+  position:relative;
+  background-color:#302F3A;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("springing cards.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("crissAngel.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("shinLimColinCloud.jpg");
+  min-height: 400px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .name {
+  background-color:transparent;
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: #FF6037;
+  font-weight: bold;
+}
+
+.caption span.border {
+  background-color: #D74C27;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.name {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align:center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bg-img-4, .bg-img-5{
+    background-attachment: scroll;
+  }
+}

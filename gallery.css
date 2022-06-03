@@ -1,25 +1,12 @@
-/* cursor: url('___'); custom cursor?*/
-body {
-  background: url(img/basketballCourt.jpg);
+.body{
+  background: url('img/basketballCourt.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Big Shoulders Stencil Text', cursive;
-  padding: 0px;
-  margin: 0px;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-.container-fluid {
-  padding: 0px;
-  margin:0px;
+    margin-top:20px;
 }
 
 .navbar {
@@ -148,75 +135,130 @@ body {
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
+footer{
+  background-color: black;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
 footer p, li, td{
   text-align: center;
   font-size: 15px;
+}
+a{
+  color: red;
 }
 .copyright {
     font-size: 24px;
     text-align: center;
 }
 
-a {
-  color: red;
-  text-decoration: none;
-}
-.container {
-  font-size: 60px;
-  widows: 100%;
-  text-align: center;
-  color: red;
-  padding: 0px;
-  margin: 0px;
-}
-footer .container {
-  background-color: black;
-}
-a:hover {
-  color: red;
-  background-color: black;
-}
-button {
-  background-color: red;
-  color: black;
-  font-size: 30px;
-  border-radius: 2px;
-}
-.btn-size {
-  height: 65px;
-  width: 65px;
-}
-button.subscribe:hover {
-  background-color: white;
-  color: red;
-}
-button.subscribe{
-  background-color: red;
-  color: white;
-}
-button:hover{
-  background-color: red;
-}
-.heading {
-  font-size: 60px;
-  width: 100%;
-  text-align: center;
-}
-div .center {
+.center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.container {
+  margin-left: 0px;
+  margin-right: 100px;
   width: 100%;
 }
-
-.carousel {
-  text-align: center;
-  z-index: 100;
+.card-subtitle, .card-title {
+    font-weight: 400;
 }
-#myCarousel .carousel-item{
-  height: 400px;
+.card-title {
+    font-size: .875rem;
+    color: #495057;
+}
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-header:first-child {
+    border-radius: .25rem .25rem 0 0;
+}
+.card-header {
+    border-bottom-width: 1px;
+}
+.pb-0 {
+    padding-bottom: 0!important;
+}
+.card-header {
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0 solid transparent;
+}
+.card-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.card-wrapper .card-img {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+.card-wrapper .card-img img {
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+.card-wrapper .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    transform: translateX(-100%);
+    transition: 0.8s;
+    z-index: 11;
+}
+.card-wrapper:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    z-index: 9;
+    transition: 0.8s;
+    background: #d10909;
+    border-radius: 0.25rem;
+}
+.card-wrapper:hover:before {
+    right: 0;
+}
+.card-wrapper h3,
+.card-wrapper p {
+    color: #fff;
+}
+.card-wrapper .read-more {
+    color: #fff;
+}
+.card-wrapper .read-more:after {
+    color: #fff;
+}
+.card-wrapper:hover .card-body {
+    visibility: visible;
+    transform: translateX(0px);
+}
+.card-wrapper:hover .backgound-color {
+    right: 0;
 }
