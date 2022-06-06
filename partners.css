@@ -23,7 +23,6 @@ body, html {
 
 .navbar .nav-container li {
   list-style: none;
-  text-decoration:none;
 }
 
 .navbar .nav-container a {
@@ -151,12 +150,8 @@ a {
   font-style: normal;
   text-decoration:none;
 }
-.whiteDesc {
-  color: black;
-  background-color: #EEEBC9;
-  text-align:center;
-  padding:50px 80px;
-  text-align: justify;
+h4{
+  font-weight: normal;
 }
 .desc {
   color:white;
@@ -231,4 +226,51 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3, .bg-img-4, .bg-img-5{
     background-attachment: scroll;
   }
+}
+
+footer p, li, td{
+  text-align: center;
+  font-size: 15px;
+}
+.copyright {
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+.container {
+  font-size: 60px;
+  widows: 100%;
+  text-align: center;
+  color: red;
+  padding: 0px;
+  margin: 0px;
+}
+footer .container {
+  background-color: black;
+}
+a:hover {
+  color: red;
+  background-color: black;
+}
+button {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+  border-radius: 2px;
+}
+.btn-size {
+  height: 65px;
+  width: 65px;
+}
+button.subscribe:hover {
+  background-color: white;
+  color: red;
+}
+button.subscribe{
+  background-color: red;
+  color: white;
 }
