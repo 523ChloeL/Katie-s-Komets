@@ -200,6 +200,7 @@ h4{
 
 .caption .name {
   background-color:transparent;
+  font-family: 'Big Shoulders Stencil Text', cursive;
   font-size: 25px;
   letter-spacing: 10px;
   color: red;
@@ -211,7 +212,7 @@ h4{
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-  border-weight: 0px;
+  border-width: 0px;
 }
 .name {
   background-color:transparent;
@@ -237,14 +238,19 @@ h3 {
 footer p, li, td{
   text-align: center;
   font-size: 15px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+p{
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 .copyright {
     font-size: 24px;
     text-align: center;
+    font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 a {
-  color: red;
+  color: white;
     font-family: 'Big Shoulders Stencil Text', cursive;
   text-decoration: none;
 }
@@ -264,20 +270,48 @@ a:hover {
   background-color: black;
 }
 button {
+  font-family: 'Big Shoulders Stencil Text', cursive;
   background-color: red;
   color: black;
   font-size: 30px;
   border-radius: 2px;
 }
-.btn-size {
+a.btn {
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  border-radius: 2px;
+
+}
+.btn:hover{
+  background-color: white;
+  color: red;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.btn-size{
   height: 65px;
   width: 65px;
 }
 button.subscribe:hover {
   background-color: white;
   color: red;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 button.subscribe{
   background-color: red;
   color: white;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.border {
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+h1{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+h2{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+h5{
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
