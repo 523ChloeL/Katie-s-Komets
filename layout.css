@@ -10,6 +10,38 @@ body {
   padding: 0px;
   margin: 0px;
 }
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .name {
+  background-color:transparent;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: red;
+  font-weight: bold;
+}
+.caption span.border {
+  color: red;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-width: 0px;
+}
+.desc {
+  color:white;
+  position:relative;
+  background-color:#302F3A;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
 * {
   margin: 0;
   padding: 0;
@@ -37,9 +69,17 @@ body {
 .navbar .menu-items {
   display: flex;
 }
+.nav-link {
+  list-style: none;
+  color: white;
+}
+.nav-link:hover {
+  color: red;
+}
 
 .navbar .nav-container li {
   list-style: none;
+  list-style-type: none;
 }
 
 .navbar .nav-container a {
@@ -219,4 +259,7 @@ div .center {
 }
 #myCarousel .carousel-item{
   height: 400px;
+}
+p {
+  color: white;
 }
