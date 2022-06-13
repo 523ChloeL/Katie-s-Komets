@@ -135,20 +135,80 @@
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
-footer{
-  background-color: black;
-  font-family: 'Big Shoulders Stencil Text', cursive;
-}
 footer p, li, td{
   text-align: center;
   font-size: 15px;
 }
-a{
-  color: red;
-}
 .copyright {
     font-size: 24px;
     text-align: center;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+footer {
+  background-color: black;
+  font-size: 60px;
+  widows: 100%;
+  text-align: center;
+  color: red;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+a:hover {
+  color: red;
+  background-color: black;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+button {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+  border-radius: 2px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.btn-size {
+  height: 65px;
+  width: 65px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+button.subscribe:hover {
+  background-color: white;
+  color: red;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+button.subscribe{
+  background-color: red;
+  color: white;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+button:hover{
+  background-color: red;
+}
+.heading {
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+}
+div .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p {
+  color: white;
+  margin: 0px;
+}
+h5 {
+  margin:0px;
 }
 
 .center {

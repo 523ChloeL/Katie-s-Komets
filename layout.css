@@ -35,6 +35,8 @@ body {
   border-width: 0px;
 }
 .desc {
+  margin-top: 100px;
+  margin-bottom: 100px;
   color:white;
   position:relative;
   background-color:#302F3A;
@@ -72,6 +74,7 @@ body {
 .nav-link {
   list-style: none;
   color: white;
+  padding: 0px;
 }
 .nav-link:hover {
   color: red;
@@ -201,7 +204,8 @@ a {
   color: red;
   text-decoration: none;
 }
-.container {
+footer {
+  background-color: black;
   font-size: 60px;
   widows: 100%;
   text-align: center;
@@ -209,9 +213,7 @@ a {
   padding: 0px;
   margin: 0px;
 }
-footer .container {
-  background-color: black;
-}
+
 a:hover {
   color: red;
   background-color: black;
@@ -226,6 +228,7 @@ button {
   height: 65px;
   width: 65px;
 }
+
 button.subscribe:hover {
   background-color: white;
   color: red;
@@ -248,18 +251,10 @@ div .center {
   margin-right: auto;
   width: 50%;
 }
-
-.container {
-  width: 100%;
-}
-
-.carousel {
-  text-align: center;
-  z-index: 100;
-}
-#myCarousel .carousel-item{
-  height: 400px;
-}
 p {
   color: white;
+  margin: 0px;
+}
+h5 {
+  margin:0px;
 }
