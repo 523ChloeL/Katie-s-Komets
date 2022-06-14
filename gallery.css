@@ -1,14 +1,17 @@
-body, html {
-  height: 100%;
-  margin: 0;
+.body{
+  background: url('img/basketballCourt.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Big Shoulders Stencil Text', cursive;
-   cursor: url("img/cursor.png");
+    margin-top:20px;
 }
 
 .navbar {
   width: 100%;
   background-color: black;
-    font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 .nav-container {
@@ -96,7 +99,6 @@ body, html {
 
 .navbar .menu-items {
   padding-top: 120px;
-    font-family: 'Big Shoulders Stencil Text', cursive;
   box-shadow: inset 0 0 5000px rgba(0, 0, 0, .9);
   height: 100vh;
   width: 100%;
@@ -112,7 +114,6 @@ body, html {
 .navbar .menu-items li {
   font-size: 1.5rem;
   font-weight: 500;
-    font-family: 'Big Shoulders Stencil Text', cursive;
 }
 /* hamburger menu */
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -137,106 +138,6 @@ body, html {
 footer p, li, td{
   text-align: center;
   font-size: 15px;
-    font-family: 'Big Shoulders Stencil Text', cursive;
-}
-button {
-  font-family: 'Big Shoulders Stencil Text', cursive;
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: black;
-  text-align: center;
-  cursor: pointer;
-}
-a {
-  color: #fff;
-  font-style: normal;
-  text-decoration:none;
-}
-h4{
-  font-weight: normal;
-    font-family: 'Big Shoulders Stencil Text', cursive;
-}
-.desc {
-  color:white;
-  position:relative;
-  background-color:#302F3A;
-  text-align:center;
-  padding:50px 80px;
-  text-align: justify;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bgimg-1 {
-  background-image: url("img/basketballCourt.jpg");
-  min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("img/basketballCourt.jpg");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("img/basketballCourt.jpg");
-  min-height: 400px;
-}
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption .name {
-  background-color:transparent;
-  font-family: 'Big Shoulders Stencil Text', cursive;
-  font-size: 25px;
-  letter-spacing: 10px;
-  color: red;
-  font-weight: bold;
-}
-
-.caption span.border {
-  color: red;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  border-width: 0px;
-}
-.name {
-  background-color:transparent;
-  font-size:25px;
-  color: #f7f7f7;
-}
-
-h3 {
-    font-family: 'Big Shoulders Stencil Text', cursive;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: #111;
-  text-align:center;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bg-img-4, .bg-img-5{
-    background-attachment: scroll;
-  }
-}
-footer p, li, td{
-  text-align: center;
-  font-size: 15px;
 }
 .copyright {
     font-size: 24px;
@@ -247,6 +148,7 @@ footer p, li, td{
 a {
   color: red;
   text-decoration: none;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 footer {
   background-color: black;
@@ -256,31 +158,35 @@ footer {
   color: red;
   padding: 0px;
   margin: 0px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
+
 a:hover {
   color: red;
   background-color: black;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 button {
   background-color: red;
   color: black;
   font-size: 30px;
   border-radius: 2px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 .btn-size {
   height: 65px;
   width: 65px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 button.subscribe:hover {
   background-color: white;
   color: red;
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 button.subscribe{
   background-color: red;
   color: white;
-  height: 35px;
-  width: 100px;
   font-family: 'Big Shoulders Stencil Text', cursive;
 }
 button:hover{
@@ -303,15 +209,165 @@ p {
 }
 h5 {
   margin:0px;
-  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
-.border {
-  font-family: 'Big Shoulders Stencil Text', cursive;
+.center {
+  display: block;
+  margin-left: 0px;
+  margin-right: 100px;
+  width: 100%;
 }
-h1{
-  font-family: 'Big Shoulders Stencil Text', cursive;
+.card-subtitle, .card-title {
+    font-weight: 400;
 }
-h2{
-  font-family: 'Big Shoulders Stencil Text', cursive;
+.card-title {
+    font-size: .875rem;
+    color: #495057;
+}
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-header:first-child {
+    border-radius: .25rem .25rem 0 0;
+}
+.card-header {
+    border-bottom-width: 1px;
+}
+.pb-0 {
+    padding-bottom: 0!important;
+}
+.card-header {
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0 solid transparent;
+}
+.card-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.card-wrapper .card-img {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+.card-wrapper .card-img img {
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+.card-wrapper .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    transform: translateX(-100%);
+    transition: 0.8s;
+    z-index: 11;
+}
+.card-wrapper:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    z-index: 9;
+    transition: 0.8s;
+    background: #d10909;
+    border-radius: 0.25rem;
+}
+.card-wrapper:hover:before {
+    right: 0;
+}
+.card-wrapper h3,
+.card-wrapper p {
+    color: #fff;
+}
+.card-wrapper .read-more {
+    color: #fff;
+}
+.card-wrapper .read-more:after {
+    color: #fff;
+}
+.card-wrapper:hover .card-body {
+    visibility: visible;
+    transform: translateX(0px);
+}
+.card-wrapper:hover .backgound-color {
+    right: 0;
+}
+footer p, li, td{
+  text-align: center;
+  font-size: 15px;
+}
+.copyright {
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+.container {
+  font-size: 60px;
+  widows: 100%;
+  text-align: center;
+  color: red;
+  padding: 0px;
+  margin: 0px;
+}
+footer .container {
+  background-color: black;
+}
+a:hover {
+  color: red;
+  background-color: black;
+}
+button {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+  border-radius: 2px;
+}
+.btn-size {
+  height: 65px;
+  width: 65px;
+}
+button.subscribe:hover {
+  background-color: white;
+  color: red;
+}
+button.subscribe{
+  background-color: red;
+  color: white;
+}
+i {
+  color: red;
 }
