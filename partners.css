@@ -271,7 +271,17 @@ button {
   height: 65px;
   width: 65px;
 }
-
+a.btn.sponsor {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+a.btn.sponsor:hover {
+  background-color: white;
+  color: red;
+}
 button.subscribe:hover {
   background-color: white;
   color: red;
@@ -314,4 +324,10 @@ h1{
 }
 h2{
   font-family: 'Big Shoulders Stencil Text', cursive;
+}
+i.fa.btn.btn-floating.btn-light.btn-size {
+  font-size: 65px;
+}
+a.fa-li{
+  color: red;
 }
